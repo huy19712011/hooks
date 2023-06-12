@@ -7,7 +7,7 @@ const App_useRef4 = () => {
     const previousValue = useRef(null);
 
     useEffect(() => {
-        previousValue.current = inputValue
+        previousValue.current = inputValue;
     }, [inputValue]);
 
 
